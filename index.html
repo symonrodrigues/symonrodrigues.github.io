@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+
+        <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+
+        <link rel="stylesheet" href="css/aos.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/ionicons.min.css">
+        <link rel="stylesheet" href="css/customStyle.css">
+        <link rel="stylesheet" href="css/flaticon.css">
+        <link rel="stylesheet" href="css/icomoon.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Symon Rodrigues Lourenco</title>
+    </head>
+    <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+        <nav class="navbar navbar-expand-lg ftco-navbar-light navbar-dark ftco_navbar bg-dark site-navbar-target" id="ftco-navbar">
+            <div class="container">
+              <a class="navbar-brand animated fadeIn slow" href="index.html" id="navbar-logo">Symon Rodrigues</a>
+              <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span>
+              </button>
+    
+              <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav nav ml-auto animated fadeIn slow">
+                  <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+                  <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+                  <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
+                  <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <section id='home-section' class="mandatory-scroll-snapping" dir="ltr">
+            <div class="home-image">
+                <div class="container animated-text">
+                    <h1>Professional software developer.</h1>
+                </div>
+            </div>
+        </section>
+
+        <section  class="ftco-about ftco-counter ftco-section mandatory-scroll-snapping" dir="ltr" id='about-section'>
+            <div class="container" id="aboutContainer">
+                <div  data-aos="fade-left"
+                data-aos-offset="300"
+       data-aos-easing="ease-in-sine" class="aboutTextDiv">
+                    <p class="aboutText">
+                        Mijn naam is Symon Rodrigues Lourenco.<br>
+                        Ik ben 22 jaar oud, en ik woon in Amstelveen.<br>
+                        Op het moment studeer ik software development aan de YoungCapital Academy.<br>
+                        Ik ben een gepassioneerde developer die ontwikkeling op de eerste plek zet!<br>
+                        Graag ontmoet ik u voor mijn volgende uitdaging.
+                    </p>
+                  </div>
+                <div data-aos="fade-right"
+       data-aos-offset="300"
+       data-aos-easing="ease-in-sine" class="myPicture">
+                    <div class="firstRectangle">
+                        <div id="firstCurr"></div>
+                    </div>
+                    <div class="secondRectangle">
+                        <div id="secondCurr"></div>
+                    </div>
+                </div>
+              
+            </div>
+        </section>
+
+        <section dir="ltr" class="ftco-counter ftco-section mandatory-scroll-snapping" id='skills-section'>
+            <div class="container">
+                <div class="flex-container aboutContainer">
+                  <ul class="cards-split" data-aos="zoom-in-down" id='firstStack'>
+                      <li class="card card-1" id='card-first'>
+                          <a class="attribute" id='attribute-1' onclick="secondTransitionTrigger(this.id)" >
+                          <div style="height: 100%" class="smallSkill">
+                          <div class="skillItem" id="card-1"></div>
+                          <div class="content">
+                              <h4>Web Development</h4>
+                          </div>
+                          </div>
+  
+                          <div class="remove bigSkill">
+                              <div class="bigSkill">
+                              <div class="bigSkillPoints">
+                                  <ul id="webDevSkills">
+                                      <li>HTML</li>
+                                      <li>CSS</li>
+                                      <li>React</li>
+                                      <li>Angular</li>
+                                      <li>Javascript</li>
+                                      <li>Node.js</li>
+                                  </ul>
+                              </div>
+                              <div class="bigSkillText">
+                              <p style="margin: auto" id="texttest">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                  when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                                  It has survived not only five centuries, but also the leap into electronic typesetting, 
+                                  remaining essentially unchanged. 
+                                  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                                  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              </div>
+                              </div>
+                              <br>
+                              <div class="bigSkillImages">
+                                  <div style="display: flex;">
+                                  <div class="imageFive skillImage"></div>
+                                  <div class="imageSix skillImage"></div>
+                                  <div class="imageOne skillImage"></div>
+                                  <div class="imageTwo skillImage"></div>
+                                  <div class="imageThree skillImage"></div>
+                                  <div class="imageFour skillImage"></div>
+                                  </div>
+                              </div>
+                          </div>
+                          </a>
+                      </li>
+                      <li class="card card-2" id='card-second'>
+                          <a class="attribute" id='attribute-2' onclick="secondTransitionTrigger(this.id)">
+                          <div style="height: 100%;" class="smallSkill">
+                              <div class="skillItem" id="card-2"></div>
+                              <div class="content">
+                                  <h4>Back-end programming</h4>
+                              </div>
+                          </div>
+  
+  
+                          <div class="remove bigSkill">
+                              <div class="bigSkill">
+                              <div class="bigSkillPoints">
+                                  <ul>
+                                      <li>C#</li>
+                                      <li>Java</li>
+                                      <li>Python</li>
+                                  </ul>
+                              </div>
+                              <div class="bigSkillText">
+                              <p style="margin: auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                  when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                                  It has survived not only five centuries, but also the leap into electronic typesetting, 
+                                  remaining essentially unchanged. 
+                                  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                                  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              </div>
+                              </div>
+                              <br>
+                              <div class="bigSkillImages">
+                                  <div style="display: flex;">
+                                  <div class="imageFive skillImage"></div>
+                                  <div class="imageSix skillImage"></div>
+                                  <div class="imageOne skillImage"></div>
+                                  <div class="imageTwo skillImage"></div>
+                                  <div class="imageThree skillImage"></div>
+                                  <div class="imageFour skillImage"></div>
+                                  </div>
+                              </div>
+                          </div>
+                          </a>
+                      </li>
+                      <li class="card card-3" id='card-third'>
+                          <a class="attribute" id='attribute-3' onclick="secondTransitionTrigger(this.id)">
+                          <div style="height: 100%" class="smallSkill">
+                              <div class="skillItem" id="card-3"></div>
+                              <div class="content">
+                                  <h4>Databases</h4>
+                              </div>
+                          </div>
+  
+                          <div class="remove bigSkill">
+                              <div class="bigSkill">
+                              <div class="bigSkillPoints">
+                                  <ul>
+                                      <li>MicrosoftSQL</li>
+                                      <li>MongoDB</li>
+                                      <li>MariaDB</li>
+                                  </ul>
+                              </div>
+                              <div class="bigSkillText">
+                              <p style="margin: auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                  when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                                  It has survived not only five centuries, but also the leap into electronic typesetting, 
+                                  remaining essentially unchanged. 
+                                  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                                  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              </div>
+                              </div>
+                              <br>
+                              <div class="bigSkillImages">
+                                  <div style="display: flex;">
+                                  <div class="imageOne skillImage"></div>
+                                  <div class="imageTwo skillImage"></div>
+                                  <div class="imageThree skillImage"></div>
+                                  <div class="imageFour skillImage"></div>
+                                  <div class="imageFive skillImage"></div>
+                                  <div class="imageSix skillImage"></div>
+                                  </div>
+                              </div>
+                          </div>
+                          </a>
+                      </li>
+                  </ul>
+                  <ul class="cards-split" data-aos="zoom-in-up" id="secondStack">
+                      <li class="card card-4" id='card-fourth'>
+                          <a class="attribute" id='attribute-4' onclick="secondTransitionTrigger(this.id)">
+                          <div style="height: 100%;" class="smallSkill">
+                              <div class="skillItem" id="card-4"></div>
+                              <div class="content">
+                                  <h4>SEO</h4>
+                              </div>
+                          </div>
+  
+                          <div class="remove bigSkill">
+                              <div class="bigSkill">
+                              <div class="bigSkillPoints">
+                                  <ul>
+                                      <li>React</li>
+                                      <li>Angular</li>
+                                      <li>Javascript</li>
+                                      <li>Node.js</li>
+                                      <li>moustache</li>
+                                  </ul>
+                              </div>
+                              <div class="bigSkillText">
+                              <p style="margin: auto" id="texttest">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                  when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                                  It has survived not only five centuries, but also the leap into electronic typesetting, 
+                                  remaining essentially unchanged. 
+                                  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                                  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              </div>
+                              </div>
+                              <br>
+                              <div class="bigSkillImages">
+                                  <div style="display: flex;">
+                                  <div class="imageOne skillImage"></div>
+                                  <div class="imageTwo skillImage"></div>
+                                  <div class="imageThree skillImage"></div>
+                                  <div class="imageFour skillImage"></div>
+                                  <div class="imageFive skillImage"></div>
+                                  <div class="imageSix skillImage"></div>
+                                  </div>
+                              </div>
+                          </div>
+                          </a>
+                      </li>
+                      <li class="card card-5" id='card-fifth'>
+                          <a class="attribute" id='attribute-5' onclick="secondTransitionTrigger(this.id)">
+                          <div style="height: 100%;" class="smallSkill">
+                              <div class="skillItem" id="card-5"></div>
+                              <div class="content">
+                                  <h4>Business consultant</h4>
+                              </div>
+                          </div>
+  
+                          <div class="remove bigSkill">
+                              <div class="bigSkill">
+                              <div class="bigSkillPoints">
+                                  <ul>
+                                      <li>React</li>
+                                      <li>Angular</li>
+                                      <li>Javascript</li>
+                                      <li>Node.js</li>
+                                      <li>moustache</li>
+                                  </ul>
+                              </div>
+                              <div class="bigSkillText">
+                              <p style="margin: auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                  when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                                  It has survived not only five centuries, but also the leap into electronic typesetting, 
+                                  remaining essentially unchanged. 
+                                  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                                  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              </div>
+                              </div>
+                              <br>
+                              <div class="bigSkillImages">
+                                  <div style="display: flex;">
+                                  <div class="imageOne skillImage"></div>
+                                  <div class="imageTwo skillImage"></div>
+                                  <div class="imageThree skillImage"></div>
+                                  <div class="imageFour skillImage"></div>
+                                  <div class="imageFive skillImage"></div>
+                                  <div class="imageSix skillImage"></div>
+                                  </div>
+                              </div>
+                          </div>
+                          </a>
+                      </li>
+                      <li class="card card-6" id='card-sixth'>
+                          <a class="attribute" id='attribute-6' onclick="secondTransitionTrigger(this.id)">
+                          <div style="height: 100%" class="smallSkill">
+                              <div class="skillItem" id="card-6"></div>
+                              <div class="content">
+                                  <h4>Soft skills</h4>
+                              </div>
+                          </div>
+  
+                          <div class="remove bigSkill">
+                              <div class="bigSkill">
+                              <div class="bigSkillPoints">
+                                  <ul>
+                                      <li>React</li>
+                                      <li>Angular</li>
+                                      <li>Javascript</li>
+                                      <li>Node.js</li>
+                                      <li>moustache</li>
+                                  </ul>
+                              </div>
+                              <div class="bigSkillText">
+                              <p style="margin: auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                  when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                                  It has survived not only five centuries, but also the leap into electronic typesetting, 
+                                  remaining essentially unchanged. 
+                                  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                                  and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              </div>
+                              </div>
+                              <br>
+                              <div class="bigSkillImages">
+                                  <div style="display: flex;">
+                                  <div class="imageOne skillImage"></div>
+                                  <div class="imageTwo skillImage"></div>
+                                  <div class="imageThree skillImage"></div>
+                                  <div class="imageFour skillImage"></div>
+                                  <div class="imageFive skillImage"></div>
+                                  <div class="imageSix skillImage"></div>
+                                  </div>
+                              </div>
+                          </div>
+                          </a>
+                      </li>
+                  </ul>
+                  </div>
+                  </div>
+                  </section>
+
+                <section class="ftco-about ftco-counter ftco-section mandatory-scroll-snapping" id='projects-section'>
+                    <div class="container">
+                        <div class="row">
+                            <h1 class="contactText">Neem contact met me op!</h1>
+                        </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <form action="" method="post" id="contact-form">
+                            <div class="row">
+                              <div class="col-sm-4">
+                                <div class="form-group">
+                                  <label for="name" class="sr-only">Name</label>
+                                  <input type="text" class="form-control input-lg" id="name" name="name" placeholder="Name" value="">
+                                </div>
+                              </div>
+                              <div class="col-sm-4">
+                                <div class="form-group">
+                                  <label for="email" class="sr-only">Email</label>
+                                  <input type="email" class="form-control input-lg" id="email" name="email" placeholder="Email" value="">
+                                </div>
+                              </div>
+                              <div class="col-sm-4">
+                                <div class="form-group">
+                                  <label for="subject" class="sr-only">Subject</label>
+                                  <input type="text" class="form-control input-lg" id="subject" name="subject" placeholder="Subject" value="">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-sm-12">
+                                <div class="form-group">
+                                  <label for="message" class="sr-only">Message</label>
+                                  <textarea class="form-control input-lg" rows="8" id="message" name="message" placeholder="Message"></textarea>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-sm-12">
+                                <div class="form-group">
+                                  <button type="submit" class="btn btn-default btn-lg btn-block" id="send" data-loading-text="Sending...">Send message</button>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <ul class="infoList">
+                            <li>Telefoonnummer: +(31)618514541</li>
+                            <li>Email-adres: symon.rodrigues.l@gmail.com</li>
+                        </ul>
+                        <ul class="social-networks bounce secondInfoList">
+                            <li><a href="https://www.linkedin.com/" class="icon-linkedin">LinkedIn</a></li>
+                            <li><a href="https://github.com" class="icon-github">GitHub</a></li>
+                          </ul>
+                      </div>
+                    </div>
+                  </section>
+
+
+    </body>
+</html>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script  src="https://unpkg.com/onscreen/dist/on-screen.umd.min.js"></script>
+<script>
+    
+    AOS.init();
+    var os = new OnScreen();
+
+    jQuery(document).ready(
+        
+    );
+
+
+    os.on('enter', '.secondRectangle', (element, event) =>
+    {
+        $('#firstCurr').addClass("firstCurrent");
+
+        function addCurrent()
+        {
+            $('#secondCurr').addClass("secondCurrent");
+        }
+
+        window.setTimeout( addCurrent, 500);
+    });
+
+    os.on('leave', '.secondRectangle', (element, event) =>
+    {
+        $('#firstCurr').removeClass("firstCurrent");
+        $('#secondCurr').removeClass("secondCurrent");
+    });
+
+
+    function secondTransitionTrigger(attributeName)
+    {
+          var exception = $('#' + attributeName).parent().attr('id');
+
+          const s = 'attribute-';
+          if(attributeName == s + '1' || attributeName == s + '2' || attributeName ==  s +'3')
+          {
+              $('#' + exception).toggleClass('expandCard');
+              if($("#" + exception).hasClass('expandCard'))
+              {
+
+                  $("#" + exception).find('a').children(".smallSkill").addClass("remove");
+                $(".bigSkill").hide().fadeIn(1500);
+
+              } else {
+                  
+                  $("#" + exception).find('a').children(".smallSkill").removeClass("remove");
+                  $("#" + exception).find('a').children(".smallSkill").hide().fadeIn(800);
+              }
+
+              
+          }
+          else if(attributeName == s + '4' || attributeName == s + '5' || attributeName == s + '6')
+          {
+              $('#' + exception).toggleClass('expandCardSecond');
+
+              if($("#" + exception).hasClass('expandCardSecond'))
+              {
+                  $("#" + exception).find('a').children(".smallSkill").addClass("remove");
+                $(".bigSkill").hide().fadeIn(1500);
+              } else {
+                  $("#" + exception).find('a').children(".smallSkill").removeClass("remove");
+                  $("#" + exception).find('a').children(".smallSkill").hide().fadeIn(800);
+              }
+          }
+
+          secondTransition(exception);
+          
+          
+    }
+
+
+    function secondTransition(exception)
+      {
+        $('li.card').not('#' + exception).toggleClass('secondTransition');
+      };
+
+  os.on('enter', '#secondStack', (element, event) =>
+    {
+        function displayAnimation()
+        {
+            $('ul.cards-split').addClass('transition');
+        }
+        
+        window.setTimeout( displayAnimation, 50);
+    });
+
+    os.on('leave', '#secondStack', (element, event) =>
+    {
+        $('ul.cards-split').removeClass('transition');
+
+    });
+  
+
+ 
+
+</script>
